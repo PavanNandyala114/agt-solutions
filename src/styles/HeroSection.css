@@ -1,0 +1,58 @@
+.hero {
+  min-height: 85vh;
+  background: linear-gradient(
+      rgba(13, 71, 161, 0.85),
+      rgba(25, 118, 210, 0.85)
+    ),
+    url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.hero-content {
+  max-width: 850px;
+}
+
+.hero h1 {
+  font-size: 54px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero p {
+  font-size: 21px;
+  margin-bottom: 35px;
+  line-height: 1.6;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 14px 28px;
+  margin: 10px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.primary-btn {
+  background-color: #ffca28;
+  color: #000;
+}
+
+.secondary-btn {
+  background-color: white;
+  color: #0d47a1;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover {
+  transform: translateY(-3px);
+}
